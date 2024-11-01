@@ -1,0 +1,42 @@
+
+.products .variations {
+    border: 1px solid #eee;
+    position: relative;
+    margin-bottom: 50px;
+}
+ 
+.products .variations td {
+    display: block;
+    padding: 10px 20px 18px;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+ 
+.products .variations td:first-child {
+    padding-bottom: 0;
+    border: none;
+}
+ 
+.products .variations td:last-child {
+    padding-top: 5px;
+}
+ 
+.products .variations tr:last-child td {
+    border: none;
+}
+ 
+.products .variations td label {
+    font-weight: 600;
+}
+ 
+.products .variations td select {
+    width: 100%;
+}
+ 
+.products .variations .reset_variations {
+    margin: 10px 0 0;
+    position: absolute;
+    bottom: -35px;
+    left: 0;
+    right: 0;
+}
